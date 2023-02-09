@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.cardContainer {
+  position: relative;
+}
+
+.cardImage {
+  width: 100%;
+  height: 60%;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.cardCategory {
+  font-size: 0.8rem;
+}
+
+.cardCategory span {
+  font-weight: 700;
+}
+
+.cardPrice {
+  width: 40%;
+  position: absolute;
+  bottom: 15px;
+}
+
+.active {
+  border: 2px solid coral;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.inactive {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transform: scale(1);
+  transition: 0.3s;
+}
