@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Col, Card } from "react-bootstrap";
+import CommentArea from "./CommentArea";
 
 class SingleBookAsClass extends Component {
   state = {
@@ -27,6 +28,7 @@ class SingleBookAsClass extends Component {
                 <span>Category: </span>
                 {this.props.data.category}
               </Card.Text>
+              {this.state.selected === true ? <CommentArea /> : <></>}
             </Card.Body>
           </Card>
         </Col>

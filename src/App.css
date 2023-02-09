@@ -67,7 +67,7 @@
 
 .active {
   border: 2px solid coral;
-  transform: scale(1.05);
+  transform: scale(1.02);
   transition: 0.3s;
 }
 
