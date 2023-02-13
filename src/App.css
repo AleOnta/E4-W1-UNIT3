@@ -43,12 +43,15 @@
 
 .cardImage {
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
 
 .cardTitle {
   font-size: 1.1rem;
   font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .cardCategory {
@@ -75,4 +78,30 @@
   border: 1px solid rgba(0, 0, 0, 0.125);
   transform: scale(1);
   transition: 0.3s;
+}
+
+.commentElement {
+  padding: 3px 0;
+  font-size: 0.7em;
+}
+
+label {
+  font-size: 0.7em;
+  padding: 0 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.form-control {
+  font-size: 0.7em;
+}
+
+.inputComment {
+  width: 65%;
+  font-size: 0.6em;
+}
+
+.commentButton {
+  width: 35%;
+  font-size: 0.7em;
 }
